@@ -29,4 +29,6 @@ plot1 <- function() {
   ## Copy plot to png file
   dev.copy(png, file = "plot1.png")
   dev.off()
+  
+  return("Done")
 }
